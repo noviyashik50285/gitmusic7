@@ -4,7 +4,7 @@ button0.addEventListener('click', function() {
   body.style.backgroundImage = 'url(back/stonehenge1.jpg)';
 
   obnulenie();
-  document.querySelector('#vict1').style.display = 'block'
+  document.querySelector('#containerop1').style.display = 'block'
   obnulenie2();
   this.style.color = 'blue';
 });
@@ -15,7 +15,7 @@ button1.addEventListener('click', function() {
   body.style.backgroundImage = 'url(back/stonehenge2.jpg)';
 
   obnulenie();
-  document.querySelector('#vict1').style.display = 'block'
+  document.querySelector('#containerop1').style.display = 'block'
   obnulenie2();
   this.style.color = 'blue';
 });
@@ -26,7 +26,7 @@ button2.addEventListener('click', function() {
   body.style.backgroundImage = 'url(back/stonehenge3.jpg)';
 
   obnulenie();
-  document.querySelector('#vict1').style.display = 'block'
+  document.querySelector('#containerop1').style.display = 'block'
   obnulenie2();
   this.style.color = 'blue';
 });
@@ -37,7 +37,7 @@ button3.addEventListener('click', function() {
   body.style.backgroundImage = 'url(back/stonehenge4.jpg)';
 
   obnulenie();
-  document.querySelector('#vict1').style.display = 'block'
+  document.querySelector('#containerop1').style.display = 'block'
   obnulenie2();
   this.style.color = 'blue';
 });
@@ -48,7 +48,7 @@ button4.addEventListener('click', function() {
   body.style.backgroundImage = 'url(back/trolltunga1.jpg)';
 
   obnulenie();
-  document.querySelector('#vict2').style.display = 'block'
+  document.querySelector('#containerop2').style.display = 'block'
   obnulenie2();
   this.style.color = 'blue';
 });
@@ -58,7 +58,7 @@ button5.addEventListener('click', function() {
   body.style.backgroundImage = 'url(back/trolltunga2.jpg)';
 
   obnulenie();
-  document.querySelector('#vict2').style.display = 'block'
+  document.querySelector('#containerop2').style.display = 'block'
   obnulenie2();
   this.style.color = 'blue';
 });
@@ -69,7 +69,7 @@ button6.addEventListener('click', function() {
   body.style.backgroundImage = 'url(back/silfra1.jpg)';
 
   obnulenie();
-  document.querySelector('#vict3').style.display = 'block'
+  document.querySelector('#containerop3').style.display = 'block'
   obnulenie2();
   this.style.color = 'blue';
 });
@@ -80,7 +80,7 @@ button7.addEventListener('click', function() {
   body.style.backgroundImage = 'url(back/silfra2.jpg)';
 
   obnulenie();
-  document.querySelector('#vict3').style.display = 'block'
+  document.querySelector('#containerop3').style.display = 'block'
   obnulenie2();
   this.style.color = 'blue';
 });
@@ -91,7 +91,7 @@ button8.addEventListener('click', function() {
   body.style.backgroundImage = 'url(back/silfra3.png)';
 
   obnulenie();
-  document.querySelector('#vict3').style.display = 'block'
+  document.querySelector('#containerop3').style.display = 'block'
   obnulenie2();
   this.style.color = 'blue';
 });
@@ -102,7 +102,7 @@ button9.addEventListener('click', function() {
   body.style.backgroundImage = 'url(back/silfra4.jpg)';
 
   obnulenie();
-  document.querySelector('#vict3').style.display = 'block'
+  document.querySelector('#containerop3').style.display = 'block'
   obnulenie2();
   this.style.color = 'blue';
 });
@@ -113,7 +113,7 @@ button10.addEventListener('click', function() {
   body.style.backgroundImage = 'url(back/bagan1.jpg)';
 
   obnulenie();
-  document.querySelector('#vict4').style.display = 'block'
+  document.querySelector('#containerop4').style.display = 'block'
   obnulenie2();
   this.style.color = 'blue';
 });
@@ -124,7 +124,7 @@ button11.addEventListener('click', function() {
   body.style.backgroundImage = 'url(back/bagan2.jpg)';
 
   obnulenie();
-  document.querySelector('#vict4').style.display = 'block'
+  document.querySelector('#containerop4').style.display = 'block'
   obnulenie2();
   this.style.color = 'blue';
 });
@@ -135,7 +135,7 @@ button12.addEventListener('click', function() {
   body.style.backgroundImage = 'url(back/everest1.jpg)';
 
   obnulenie();
-  document.querySelector('#vict5').style.display = 'block'
+  document.querySelector('#containerop5').style.display = 'block'
   obnulenie2();
   this.style.color = 'blue';
 });
@@ -146,17 +146,17 @@ button13.addEventListener('click', function() {
   body.style.backgroundImage = 'url(back/everest2.jpg)';
 
   obnulenie();
-  document.querySelector('#vict5').style.display = 'block'
+  document.querySelector('#containerop5').style.display = 'block'
   obnulenie2();
   this.style.color = 'blue';
 });
 
 var obnulenie = function(){
-  document.querySelector('#vict1').style.display = 'none';
-  document.querySelector('#vict2').style.display = 'none';
-  document.querySelector('#vict3').style.display = 'none';
-  document.querySelector('#vict4').style.display = 'none';
-  document.querySelector('#vict5').style.display = 'none';
+  document.querySelector('#containerop1').style.display = 'none';
+  document.querySelector('#containerop2').style.display = 'none';
+  document.querySelector('#containerop3').style.display = 'none';
+  document.querySelector('#containerop4').style.display = 'none';
+  document.querySelector('#containerop5').style.display = 'none';
   return a=0;
 }
 
