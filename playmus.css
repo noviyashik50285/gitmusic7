@@ -25,12 +25,6 @@
   align-items: center;
   position: absolute;
 }
-/* .victor{ display: none;
-  overflow-wrap: break-word;
-  margin-top: 21.4rem;  
-  align-items: center;
-  position: absolute;
-} */
 .victor1{ 
   display: block;
   margin-top: 6rem;   /* opacity: 0.95; */
@@ -190,8 +184,7 @@ h2 {
 .play-button {
   font-size: 44px;
 }
-
 #zaonpp{position: absolute; z-index: 3;
-padding-left: 11rem; padding-top: 5rem;
+padding-left: 11.2rem; padding-top: 5rem;
 }
 p{color: #fff;}
