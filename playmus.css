@@ -13,7 +13,7 @@
   }
   /* .vnizuspan{ text-align: center; font-size: .8rem;} */
 
-.butnfon{ display: block; 
+.butnfon{ display: flex; 
   padding-top: 1.8rem;
   font-size: medium; color: red;
   justify-content: space-between;
@@ -39,7 +39,7 @@ button { background-color: transparent;
     outline: none;
 }
 button:hover{color: white;}
-body {  background-image: url(back/stonehenge1.jpg);
+body {  background-image: url(back/stonehenge1_.jpg);
   /* background: radial-gradient(rgb(55, 255, 0), blue); */
   min-height: 100vh;
   overflow: hidden;
