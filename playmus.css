@@ -13,7 +13,7 @@
   }
   /* .vnizuspan{ text-align: center; font-size: .8rem;} */
 
-.butnfon{ display: flex; 
+.butnfon{ display: block; 
   padding-top: 1.8rem;
   font-size: medium; color: red;
   justify-content: space-between;
